@@ -18,6 +18,15 @@
 
 # print(numbers)
 
-chars = list("Hello World")
+# chars = list("Hello World")
 
-print(len(chars))
+# print(len(chars))
+    
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+first, second, *other = numbers
+print(first)
+print(other)
+
+# first = numbers[0]
+# second = numbers[0]
+# third = numbers[0]
