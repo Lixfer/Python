@@ -49,12 +49,14 @@
 # save_user(id=1, name="John", age=22)
 
 
-def fizz_buzz(input):
-    if (input % 3 == 0) and (input % 5 == 0):
-        return "FizzBuzz"
-    if input % 3 == 0:
-        return "Buzz"
-    if input % 5 == 0:
-        return "Fizz"
+# def fizz_buzz(input):
+#     if (input % 3 == 0) and (input % 5 == 0):
+#         return "FizzBuzz"
+#     if input % 3 == 0:
+#         return "Buzz"
+#     if input % 5 == 0:
+#         return "Fizz"
 
-print(fizz_buzz(5))
+# print(fizz_buzz(5))
+
+
