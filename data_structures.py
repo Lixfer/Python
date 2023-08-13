@@ -43,11 +43,11 @@
 # print(numbers)
 
 
-items = [
-    ("Product1", 10),
-    ("Product2", 9),
-    ("Product3", 12),
-]
+# items = [
+#     ("Product1", 10),
+#     ("Product2", 9),
+#     ("Product3", 12),
+# ]
 
 
 # def sort_items(item):
@@ -74,16 +74,28 @@ items = [
 # list1 = [1, 2, 3]
 # list2 = [10, 20, 30]
 
-# print(list(zip("abc", list1, list2)))
+# # print(list(zip("abc", list1, list2)))
 
-# [(1, 10), (2, 20), (3, 30)]
+# # [(1, 10), (2, 20), (3, 30)]
 
-browsing_session = []
-browsing_session.append(1)
-browsing_session.append(2)
-browsing_session.append(3)
-print(browsing_session)
-last = browsing_session.pop()
-print(last)
-print(browsing_session)
-print("redirect", browsing_session[-1])
+# browsing_session = []
+# browsing_session.append(1)
+# browsing_session.append(2)
+# browsing_session.append(3)
+# print(browsing_session)
+# last = browsing_session.pop()
+# print(last)
+# print(browsing_session)
+# print("redirect", browsing_session[-1])
+
+# Queues
+
+from collections import deque
+queue =  deque([])
+queue.append(1)
+queue.append(2)
+queue.append(3)
+queue.popleft()
+print(queue)
+if not queue:
+    print("Empty")
