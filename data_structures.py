@@ -31,6 +31,7 @@
 # # second = numbers[0]
 # third = numbers[0]
 
+# Finding Items
 
 # letters = ["a", "b", "c"]
 # print(letters.count("d"))
@@ -42,6 +43,7 @@
 # print(sorted(numbers, reverse=True))
 # print(numbers)
 
+# Sorting Lists
 
 # items = [
 #     ("Product1", 10),
@@ -53,6 +55,8 @@
 # def sort_items(item):
 #     return item[1]
 
+# Lambda Functions !!!(TRUDNE)!!!
+# Lambda to jednoliniowa, anonimowa funkcja, którą możemy przekazać innym funkcjom.
 
 # items.sort(key=lambda item: item[1])
 # print(items)    
@@ -90,12 +94,66 @@
 
 # Queues
 
-from collections import deque
-queue =  deque([])
-queue.append(1)
-queue.append(2)
-queue.append(3)
-queue.popleft()
-print(queue)
-if not queue:
-    print("Empty")
+# from collections import deque
+# queue =  deque([])
+# queue.append(1)
+# queue.append(2)
+# queue.append(3)
+# queue.popleft()
+# print(queue)
+# if not queue:
+#     print("Empty")
+
+# x = 10
+# y = 11
+
+# # z = x
+# # x = y
+# # y = z
+
+# x, y = y, x
+# a, b = 1, 2
+
+# print("x", x)
+# print("y", y)
+
+
+# from array import array
+
+# numbers = array("i", [1, 2, 3])
+
+# numbers[0] = 1.0
+
+# numbers = [1,1,2,3,4]
+# # uniques = set(numbers)
+# first = set(numbers)
+# second = {1, 5}
+
+# print(first | second)
+# print(first & second)
+# print(first - second)
+# print(first ^ second)
+# if 1 in first:
+#     print("Yes")
+# print(uniques)
+# second.add(5) 
+# second.remove(5)
+# len(second)
+# print(uniques)
+
+# point = {"x": 1, "y": 2}
+# point = dict(x=1, y=2)
+# point["x"] = 10
+# if "a" in point:
+#     print(point["a"])
+# point(point.get("a"))
+# del point("x")
+# print(point)
+# for key in point:
+#     print(key, point[key])
+
+# phone_book = {"Dariusz": 662128688, "Ksyś": 573662433}
+
+# phone_book["Ksyś"] = 123456789
+# phone_book["Magda"] = 333444555
+# print(phone_book)
